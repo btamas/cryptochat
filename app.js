@@ -28,7 +28,8 @@ var clientApp = new moonboots({
 		__dirname + '/public/js/crypto-js/components/pad-zeropadding-min.js',
 		__dirname + '/public/js/crypto-js/rollups/hmac-sha1.js',
 		__dirname + '/bower_components/jquery/jquery.js',
-		__dirname + '/bower_components/peerjs/peer.js'
+		__dirname + '/bower_components/peerjs/peer.js',
+    	__dirname + '/public/js/cryptochat.js'
     ],
     server: app
 });
