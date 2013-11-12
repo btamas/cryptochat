@@ -98,8 +98,6 @@ RTCCryptoChat.prototype.join = function _join(hash) {
 	}
 };
 
-var z;
-
 RTCCryptoChat.prototype.send = function _send(message) {
 	if (this.connection) {
     //workaround: encrypt sometimes encrypt wrong, but reparsing key is solve this problem
