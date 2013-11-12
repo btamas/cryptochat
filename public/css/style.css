@@ -1,0 +1,32 @@
+#content {
+	width: 90%;
+	height: 90%;
+	padding-top: 10px;
+}
+
+#title {
+	float: left;
+	margin: 0;
+}
+
+#message {
+	width: 90%;
+	height: 80%;
+	padding-top: 10px;
+}
+
+#status {
+	border: 10px solid red;
+	border-radius: 100%;
+	width: 0;
+	height: 0;
+	float: right;
+}
+
+#status.connected {
+	border: 10px solid green;
+}
+
+#clear {
+	clear: both;
+}
